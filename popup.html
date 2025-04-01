@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Summarizer</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Webpage Summarizer</h2>
+        
+        <button id="summarizeBtn">Summarize</button>
+        
+        <div id="loading" class="hidden">
+            <div class="loader"></div>
+            <p>Summarizing...</p>
+        </div>
+        
+        <div id="summary-container" class="hidden">
+            <p id="summary"></p>
+        </div>
+
+        <button id="copyBtn" class="hidden">📋 Copy Summary</button>
+    </div>
+</body>
+</html>
